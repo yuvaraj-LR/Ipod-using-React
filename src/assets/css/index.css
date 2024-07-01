@@ -1,0 +1,73 @@
+.ipod_container {
+    height: 92vh;
+    padding-inline: 1rem;
+}
+
+.ipod_wrapper {
+    height: 600px;
+    max-width: 400px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background: #d9d9d9;
+}
+
+.ipod_display {
+    padding: 10px;
+}
+
+.display_container {
+    max-width: 380px;
+    height: 300px;
+    border: 5px double #1b1b1b;
+    padding: 15px;
+    border-radius: 25px;
+    background: url("../images/wallpaper1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.button_icons {
+    width: 40px;
+}
+
+.control_container {
+    background: linear-gradient(45deg, #cacaca, gray);
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.control_button {
+    position: absolute;
+}
+
+.menu_button {
+    top: 35px;
+}
+
+.forward_button {
+    left: 15px;
+    transform: rotate(180deg);
+}
+
+.backward_button {
+    right: 15px;
+}
+
+.song_button {
+    bottom: 25px;
+}
+
+.home_button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: grey;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+

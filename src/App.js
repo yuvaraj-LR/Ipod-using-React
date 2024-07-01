@@ -2,6 +2,9 @@ import { Component } from "react";
 
 import images from "./assets/images/images";
 import songs from "./assets/songs/songs";
+import "./assets/css/index.css"
+
+import Ipod from "./components/ipod";
 
 class App extends Component {
   constructor() {
@@ -73,7 +76,7 @@ class App extends Component {
   render() {
     return (
       <>
-        <h1>Hello, Yuvaraj.</h1>
+        <Ipod />
       </>
     )
   }
