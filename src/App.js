@@ -24,7 +24,7 @@ class App extends Component {
         ]
       },
       // Showing which menu should have to present.
-      menuVisible: true,
+      menuVisible: false,
       musicVisible: false,
       settingVisible: false,
       gameVisible: false,
@@ -73,10 +73,30 @@ class App extends Component {
     }
   }
 
+  handleMenuButtonClick = () => {
+    
+  }
+
+  handleForwardButtonClick = () => {
+    console.log("I am forward click");
+  }
+
+  handleBackwardButtonClick = () => {
+    console.log("I am backward click");
+  }
+
+  handlePlayMusicButtonClick = () => {
+    console.log("I am play music click");
+  }
+
+  handleNextButton = () => {
+    console.log("I am next button.");
+  }
+
   render() {
     return (
       <>
-        <Ipod />
+        <Ipod state={this.state} onClickMenuButton={this.handleMenuButtonClick} onClickForwardButton={this.handleForwardButtonClick} onClickBackwardButton={this.handleBackwardButtonClick} onClickPlayButton={this.handlePlayMusicButtonClick} onClickNextButton={this.handleNextButton}/>
       </>
     )
   }

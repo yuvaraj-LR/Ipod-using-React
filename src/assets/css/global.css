@@ -55,3 +55,7 @@ button {
     width: 75px;
 }   
 
+.capitalize {
+    text-transform: capitalize;
+}
+
