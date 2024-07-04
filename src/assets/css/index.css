@@ -12,17 +12,18 @@
 }
 
 .ipod_display {
-    padding: 10px;
-}
-
-.display_container {
     max-width: 380px;
+    padding: 10px;
     height: 300px;
     border: 5px double #1b1b1b;
     border-radius: 25px;
     background: url("../images/wallpaper1.jpg");
     background-position: center;
     background-size: cover;
+    margin: 10px;
+}
+
+.display_container {
     position: relative;
     z-index: 1;
 }
@@ -40,6 +41,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    top: 15px;
 }
 
 .control_button {
@@ -80,13 +82,30 @@
     border-radius: 25px 0 0 25px;
     border-right: 3px solid black;
     justify-content: space-around;
-    padding: 25px;
+    padding: 25px 0;
+    top: -10px;
+    left: -10px;
 }
 
 .list {
     color: #1b1b1b;
     position: relative;
     z-index: 5;
+    padding-inline: 25px;
+    transition: all 0.3s ease-out;
 }
 
+.highlight {
+    background-color: #1b1b1b;
+    color: #fff;
+}
+
+.bg_img {
+    position: relative;
+    z-index: 25;
+    top: -25px;
+    width: 310px;
+    min-height: 290px;
+    border-radius: 25px;
+}
 
